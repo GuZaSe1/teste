@@ -1,0 +1,16 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    float numero, resposta;
+    cout << "digite um numero para descobrir a metade: " << endl;
+    cin>> numero;
+
+    resposta = numero/2;
+
+    cout<< "a resposta eh: " << resposta;
+
+    return 0;
+}
